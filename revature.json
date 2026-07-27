@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_drop_table",
+          "label": "Verify the song table was dropped",
+          "description": "Runs problem1(), which should drop the song table. Then attempts to insert into it, which should fail if the table was truly dropped."
+        }
+      ]
+    }
+  ]
+}
